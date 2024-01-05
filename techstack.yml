@@ -2,7 +2,7 @@ repo_name: 2lambda123/noaa-ghcn-weather-data
 report_id: 9b223b8f2c3305e610ecb9dc82ca0506
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-29T20:31:43+00:00'
+timestamp: '2024-01-05T08:14:32+00:00'
 requested_by: dylburger
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Dylan Sather
   last_updated_on: 2017-02-07 20:34:21.000000000 Z
@@ -29,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Kengo Seki
   last_updated_on: 2018-11-11 23:18:32.000000000 Z
@@ -54,6 +56,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data
   detection_source: Repo Metadata
 - name: PyPI
   description: A repository of software for the Python programming language
@@ -63,6 +66,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Dylan Sather
   last_updated_on: 2017-02-07 20:34:21.000000000 Z
@@ -74,6 +78,7 @@ tools:
   category: Assets and Media
   sub_category: File Conversion
   image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Dylan Sather
   last_updated_on: 2017-02-07 20:34:21.000000000 Z
@@ -85,6 +90,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Kengo Seki
   last_updated_on: 2018-11-11 23:18:32.000000000 Z
@@ -97,6 +103,7 @@ tools:
   category: Application Utilities
   sub_category: Data Science Notebooks
   image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data
   detection_source: Repo Metadata
 - name: NumPy
   description: Fundamental package for scientific computing with Python
@@ -320,6 +327,7 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20142/default_e3ea003987b13e5c9b8c9000c748b25a9c0d9ecd.png
+  detection_source_url: https://github.com/2lambda123/noaa-ghcn-weather-data/blob/master/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Kengo Seki
   last_updated_on: 2018-11-11 23:18:32.000000000 Z
