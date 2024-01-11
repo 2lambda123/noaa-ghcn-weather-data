@@ -65,6 +65,21 @@ For files of this size, **this is not the most efficient way to get the count of
 
 ## Setting up the PostgreSQL database
 
+## Configuring Superset
+
+To configure Superset, follow the [installation instructions](https://superset.incubator.apache.org/installation.html) to set up a test Superset instance. Once installed, you can explore the tool's capabilities with the help of the [tutorial](https://superset.incubator.apache.org/tutorial.html).
+
+Superset is a general 'ad hoc analysis' tool that allows users to ask complex questions of a dataset without writing a line of code. It provides a simple interface for asking questions, visualizing results, and sharing insights with the business. The benefits of using Superset for ad hoc analysis include:
+
+- Centralizing the definitions for measures and dimensions, reducing inconsistencies in the definitions of metrics.
+- Combining the capabilities of tools like Tableau and Excel, offering powerful visualizations and the ability to ask and answer abstract business questions in one place.
+- Providing a SQL IDE for running complex SQL queries and turning the results into visualizations or dashboards.
+
+Data scientists also benefit from ad hoc analysis tools in two key ways:
+
+- Reducing errors and accelerating the analysis process by abstracting code as reusable measures and dimensions in an ad hoc analysis tool.
+- Empowering domain experts to ask questions and find insights themselves, freeing up time for data scientists to solve complex problems.
+
 Ingesting these data into a database will enable us to ask and answer basic questions of the data, and explore the data with tools like [Superset](https://github.com/airbnb/superset), which we discuss more below.
 
 How you install PostgreSQL will vary depending on your system. Please consult the PostgreSQL documentation, and Google. Here's the set of steps I used to install PostgreSQL on Mac OS X with [Homebrew](http://brew.sh/), creating a weather database, schema, and read-only user to safely access the database from other tools:
