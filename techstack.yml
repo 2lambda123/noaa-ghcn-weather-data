@@ -2,7 +2,7 @@ repo_name: 2lambda123/noaa-ghcn-weather-data
 report_id: 9b223b8f2c3305e610ecb9dc82ca0506
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:14:32+00:00'
+timestamp: '2024-02-29T19:17:34+00:00'
 requested_by: dylburger
 provider: github
 branch: master
@@ -519,18 +519,6 @@ tools:
     detected_date: Aug 24
     severity: critical
     first_patched: 5.7.11
-  - name: Sensitive Auth & Cookie data stored in Jupyter server logs
-    cve_id: CVE-2022-24758
-    cve_url: https://github.com/advisories/GHSA-m87f-39q9-6f55
-    detected_date: Apr 7
-    severity: high
-    first_patched: 6.4.10
-  - name: Jupyter Notebook file bypasses sanitization, executes JavaScript
-    cve_id: CVE-2018-8768
-    cve_url: https://github.com/advisories/GHSA-6cwv-x26c-w2q4
-    detected_date: Aug 22
-    severity: high
-    first_patched: 5.4.1
   - name: 'JupyterLab: XSS due to lack of sanitization of the action attribute of
       an html <form>'
     cve_id: CVE-2021-32797
@@ -538,48 +526,60 @@ tools:
     detected_date: Oct 21
     severity: high
     first_patched: 5.7.11
-  - name: Jupyter Notebook open redirect vulnerability
-    cve_id: CVE-2019-10856
-    cve_url: https://github.com/advisories/GHSA-rcx2-m7jp-p9wj
+  - name: Jupyter Notebook file bypasses sanitization, executes JavaScript
+    cve_id: CVE-2018-8768
+    cve_url: https://github.com/advisories/GHSA-6cwv-x26c-w2q4
     detected_date: Aug 22
-    severity: moderate
-    first_patched: 5.7.8
-  - name: Jupyter Notebook XSS via directory name
-    cve_id: CVE-2018-19352
-    cve_url: https://github.com/advisories/GHSA-3p4q-x8f3-p7vq
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 5.7.2
-  - name: Jupyter Notebook XSS via untrusted notebooks
-    cve_id: CVE-2018-19351
-    cve_url: https://github.com/advisories/GHSA-49qr-xh3w-h436
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 5.7.1
-  - name: Cross-site scripting in Jupyter Notebook
-    cve_id: CVE-2018-21030
-    cve_url: https://github.com/advisories/GHSA-jqwc-jm56-wcwj
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 5.5.0
-  - name: Open Redirect vulnerability in jupyterhub and notebook
-    cve_id: CVE-2019-10255
-    cve_url: https://github.com/advisories/GHSA-rv62-4pmj-xw6h
-    detected_date: Aug 22
-    severity: moderate
-    first_patched: 5.7.8
+    severity: high
+    first_patched: 5.4.1
+  - name: Sensitive Auth & Cookie data stored in Jupyter server logs
+    cve_id: CVE-2022-24758
+    cve_url: https://github.com/advisories/GHSA-m87f-39q9-6f55
+    detected_date: Apr 7
+    severity: high
+    first_patched: 6.4.10
   - name: Open redirect in Jupyter Notebook
     cve_id: CVE-2020-26215
     cve_url: https://github.com/advisories/GHSA-c7vm-f5p4-8fqh
     detected_date: Aug 22
     severity: moderate
     first_patched: 6.1.5
+  - name: Cross-site scripting in Jupyter Notebook
+    cve_id: CVE-2018-21030
+    cve_url: https://github.com/advisories/GHSA-jqwc-jm56-wcwj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.5.0
+  - name: Jupyter Notebook XSS via untrusted notebooks
+    cve_id: CVE-2018-19351
+    cve_url: https://github.com/advisories/GHSA-49qr-xh3w-h436
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.7.1
+  - name: Jupyter Notebook XSS via directory name
+    cve_id: CVE-2018-19352
+    cve_url: https://github.com/advisories/GHSA-3p4q-x8f3-p7vq
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.7.2
   - name: Token bruteforcing.
     cve_id: CVE-2022-29238
     cve_url: https://github.com/advisories/GHSA-v7vq-3x77-87vg
     detected_date: Jun 17
     severity: moderate
     first_patched: 6.4.12
+  - name: Open Redirect vulnerability in jupyterhub and notebook
+    cve_id: CVE-2019-10255
+    cve_url: https://github.com/advisories/GHSA-rv62-4pmj-xw6h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.7.8
+  - name: Jupyter Notebook open redirect vulnerability
+    cve_id: CVE-2019-10856
+    cve_url: https://github.com/advisories/GHSA-rcx2-m7jp-p9wj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 5.7.8
 - name: pandas
   description: Powerful data structures for data analysis
   package_url: https://pypi.org/project/pandas
