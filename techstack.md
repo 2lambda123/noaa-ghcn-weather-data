@@ -3,13 +3,13 @@
 ## Tech Stack
 2lambda123/noaa-ghcn-weather-data is built on the following main stack:
 
+- [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - [Python](https://www.python.org) – Languages
 - [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- [NumPy](http://www.numpy.org/) – Data Science Tools
-- [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - [Pandoc](https://pandoc.org/) – File Conversion
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
 - [IPython](http://ipython.org/index.html) – Shells
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
+- [NumPy](http://www.numpy.org/) – Data Science Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -19,13 +19,13 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 2lambda123/noaa-ghcn-weather-data is built on the following main stack:
 
+- <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/2303/New_Project__20_.png' alt='Jinja'/> [Jinja](https://palletsprojects.com/p/jinja/) – Templating Languages & Extensions
 - <img width='25' height='25' src='https://img.stackshare.io/service/2330/no-img-open-source.png' alt='Pandoc'/> [Pandoc](https://pandoc.org/) – File Conversion
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
 - <img width='25' height='25' src='https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png' alt='IPython'/> [IPython](http://ipython.org/index.html) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
+- <img width='25' height='25' src='https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png' alt='NumPy'/> [NumPy](http://www.numpy.org/) – Data Science Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -36,7 +36,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/noaa-ghcn-weather-data](https://github.com/2lambda123/noaa-ghcn-weather-data)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|49<br/>Tools used|01/05/24 <br/>Report generated|
+|49<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -164,7 +164,7 @@ Full tech stack [here](/techstack.md)
 |[mistune](https://pypi.org/project/mistune)|v0.7.3|02/07/17|Dylan Sather |BSD-3-Clause|[CVE-2017-15612](https://github.com/advisories/GHSA-hpv5-v8g5-c864) (Moderate)<br/>[CVE-2017-16876](https://github.com/advisories/GHSA-98gj-wwxm-cj3h) (Moderate)|
 |[nbconvert](https://pypi.org/project/nbconvert)|v5.0.0|02/07/17|Dylan Sather |BSD-3-Clause|[CVE-2021-32862](https://github.com/advisories/GHSA-9jmq-rx5f-8jwq) (Moderate)|
 |[nbformat](https://pypi.org/project/nbformat)|v4.2.0|02/07/17|Dylan Sather |BSD-3-Clause|N/A|
-|[notebook](https://pypi.org/project/notebook)|v4.3.1|02/07/17|Dylan Sather |BSD-3-Clause|[CVE-2021-32798](https://github.com/advisories/GHSA-hwvq-6gjx-j797) (Critical)<br/>[CVE-2022-24758](https://github.com/advisories/GHSA-m87f-39q9-6f55) (High)<br/>[CVE-2018-8768](https://github.com/advisories/GHSA-6cwv-x26c-w2q4) (High)<br/>[CVE-2021-32797](https://github.com/advisories/GHSA-4952-p58q-6crx) (High)<br/>[CVE-2019-10856](https://github.com/advisories/GHSA-rcx2-m7jp-p9wj) (Moderate)<br/>[CVE-2018-19352](https://github.com/advisories/GHSA-3p4q-x8f3-p7vq) (Moderate)<br/>[CVE-2018-19351](https://github.com/advisories/GHSA-49qr-xh3w-h436) (Moderate)<br/>[CVE-2018-21030](https://github.com/advisories/GHSA-jqwc-jm56-wcwj) (Moderate)<br/>[CVE-2019-10255](https://github.com/advisories/GHSA-rv62-4pmj-xw6h) (Moderate)<br/>[CVE-2020-26215](https://github.com/advisories/GHSA-c7vm-f5p4-8fqh) (Moderate)<br/>[CVE-2022-29238](https://github.com/advisories/GHSA-v7vq-3x77-87vg) (Moderate)|
+|[notebook](https://pypi.org/project/notebook)|v4.3.1|02/07/17|Dylan Sather |BSD-3-Clause|[CVE-2021-32798](https://github.com/advisories/GHSA-hwvq-6gjx-j797) (Critical)<br/>[CVE-2021-32797](https://github.com/advisories/GHSA-4952-p58q-6crx) (High)<br/>[CVE-2018-8768](https://github.com/advisories/GHSA-6cwv-x26c-w2q4) (High)<br/>[CVE-2022-24758](https://github.com/advisories/GHSA-m87f-39q9-6f55) (High)<br/>[CVE-2020-26215](https://github.com/advisories/GHSA-c7vm-f5p4-8fqh) (Moderate)<br/>[CVE-2018-21030](https://github.com/advisories/GHSA-jqwc-jm56-wcwj) (Moderate)<br/>[CVE-2018-19351](https://github.com/advisories/GHSA-49qr-xh3w-h436) (Moderate)<br/>[CVE-2018-19352](https://github.com/advisories/GHSA-3p4q-x8f3-p7vq) (Moderate)<br/>[CVE-2022-29238](https://github.com/advisories/GHSA-v7vq-3x77-87vg) (Moderate)<br/>[CVE-2019-10255](https://github.com/advisories/GHSA-rv62-4pmj-xw6h) (Moderate)<br/>[CVE-2019-10856](https://github.com/advisories/GHSA-rcx2-m7jp-p9wj) (Moderate)|
 |[pandas](https://pypi.org/project/pandas)|v0.19.2|02/07/17|Dylan Sather |BSD-3-Clause|N/A|
 |[pandocfilters](https://pypi.org/project/pandocfilters)|v1.4.1|02/07/17|Dylan Sather |BSD-3-Clause|N/A|
 |[pathlib2](https://pypi.org/project/pathlib2)|v2.1.0|02/07/17|Dylan Sather |MIT|N/A|
